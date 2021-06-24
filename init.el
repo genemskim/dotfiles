@@ -118,7 +118,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (setq global-line-num 0)
-(setq my-github-url "https://github.com/inhobaek-wj")
+(setq my-github-url "https://github.com/genemskim")
 (setq work-git-url "http://git.aiotholdings.com")
 (setq redmine-url "http://redmine.aiotholdings.com")
 (setq mattermost-url "http://mattermost.aiotholdings.com")
@@ -751,11 +751,11 @@ Including indent-buffer, which should not be called automatically on save."
          "-Xmx1G"
          "-XX:+UseG1GC"
          "-XX:+UseStringDeduplication"
-         ;; "-javaagent:/Users/inho/.m2/repository/org/projectlombok/lombok/1.18.10/lombok.jar"
-         ;; "-Xbootclasspath/a:/Users/inho/.m2/repository/org/projectlombok/lombok/1.18.10/lombok.jar"
+         ;; "-javaagent:/Users/mskim/.m2/repository/org/projectlombok/lombok/1.18.10/lombok.jar"
+         ;; "-Xbootclasspath/a:/Users/mskim/.m2/repository/org/projectlombok/lombok/1.18.10/lombok.jar"
          )
         )
-  (setq lsp-java-server-install-dir "/Users/inho/.emacs.d/eclipse.jdt.ls/server/")
+  (setq lsp-java-server-install-dir "/Users/mskim/.emacs.d/eclipse.jdt.ls/server/")
 
   (add-hook 'java-mode-hook 'lsp)
   (require 'lsp-java-boot)
